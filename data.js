@@ -7,3 +7,5 @@
    //formatacao com moment
 
    const dataFormatada = moment(data).format('DD/MM/YYYY HH:mm:ss')
+   
+   console.log(dataFormatada)
