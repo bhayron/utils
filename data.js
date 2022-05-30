@@ -3,6 +3,12 @@
    let novadata = data.toLocaleDateString().replace(/[^\d]/g, '.')
 
    console.log(novadata)
+
+    const data = new Date().toLocaleDateString('pt-BR', {
+         year: 'numeric',
+         month: '2-digit',
+         day: '2-digit',
+       });
    
    //formatacao com moment
 
