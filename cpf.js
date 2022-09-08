@@ -12,7 +12,7 @@ import { cpf } from 'cpf-cnpj-validator'
 
 
     const CPF = "04813816193";
-
+//formata o cpf
     const novoCpf = cpf.format(CPF.cpf)
-
+//verifica se cpf é valido
     const validCpf = cpf.isValid(novoCpf)
