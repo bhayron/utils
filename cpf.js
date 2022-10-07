@@ -16,3 +16,6 @@ import { cpf } from 'cpf-cnpj-validator'
     const novoCpf = cpf.format(CPF.cpf)
 //verifica se cpf é valido
     const validCpf = cpf.isValid(novoCpf)
+    
+firstname: cpf.match(/^[^\s]+/).shift(),
+lastname: cpf.slice(cpf.match(/^[^\s]+/).shift().length)
