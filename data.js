@@ -15,3 +15,11 @@
    const dataFormatada = moment(data).format('DD/MM/YYYY HH:mm:ss')
    
    console.log(dataFormatada)
+
+//converte pelo regex
+
+const dataHoje = '29-07-1999';
+
+const dataAtual = dataHoje.replace(/-/g,'/')//saida 29/07/1999
+
+
